@@ -6,6 +6,7 @@ s.options.maxNodes = 1024 * 32; // increase if drop outs and the message "too ma
 s.options.sampleRate= 44100;
 s.options.numOutputBusChannels = 8; // OUTPUT CHANNELS GO HERE
 s.recSampleFormat = "int24";
+s.recHeaderFormat="wav";
 s.options.numInputBusChannels = 8; // set to hardware input channel size, if necessary
 s.latency = 0.1;
 MIDIClient.init;
