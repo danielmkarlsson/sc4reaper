@@ -1,2 +1,1 @@
-# sc4reaper
-SC4Reaper
+# SC4Reaper
