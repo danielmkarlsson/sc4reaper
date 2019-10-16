@@ -15,11 +15,11 @@ https://github.com/mattingalls/Soundflower
 Every time we feel that we need to start from the beginning learning how to do things in SuperCollider we begin here:  
 https://www.youtube.com/watch?v=yRzsOOiJ_p4&list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC
 
-If we want, we can also look at the code from those videos here:  
+If we want, we can also look at the code from the above Fieldsteel videos here:  
 https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%20video%20scripts
 
 If we find ourselves just wanting to look up a particular thing, the docs are online here:  
 https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%20video%20scripts
 
-One awesome place has all of the best resources and tutorials:  
+One awesome place has all the best resources and tutorials for when we want to devote our lives to learning SuperCollider:  
 https://github.com/madskjeldgaard/awesome-supercollider
