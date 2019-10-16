@@ -21,5 +21,5 @@ https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%
 If we find ourselves just wanting to look up a particular thing, the docs are online here:  
 https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%20video%20scripts
 
-One awesome place has all the best resources and tutorials for when we want to devote our lives to learning SuperCollider:  
+One awesome place has all the best resources and tutorials when we want to dig deeper:  
 https://github.com/madskjeldgaard/awesome-supercollider
