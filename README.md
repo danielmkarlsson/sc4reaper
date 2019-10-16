@@ -26,3 +26,9 @@ https://github.com/madskjeldgaard/awesome-supercollider
 
 The modern way to ask ~~strangers~~ other users how to do things in SuperCollider is here:  
 https://scsynth.org/
+
+Amazing online gallery of fragments made with SuperCollider:  
+https://synthdef.art/function-play/
+
+Two drones of infinite duration:  
+http://danielmkarlsson.github.io/
