@@ -1,4 +1,6 @@
-# SC4Reaper - SuperCollider / Reaper course held at EMS for SoundDesign students at Stockholm University of The Arts 
+# SC4Reaper
+
+[ SuperCollider / Reaper course held at EMS for SoundDesign students at Stockholm University of The Arts ]
 
 This is our DAW:  
 http://Reaper.fm 
