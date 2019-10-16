@@ -3,7 +3,7 @@
 This is our DAW:  
 http://Reaper.fm 
 
-This let's us do _anything and everything we could ever dream of_ by writing code:  
+This let's us do _anything and everything that we could ever dream of_ by writing code:  
 https://supercollider.github.io 
 
 Running this command in Terminal.app let's us install all kinds of cool apps and things from anywhere we prefer:  
