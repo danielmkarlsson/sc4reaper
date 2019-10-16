@@ -6,7 +6,7 @@ http://Reaper.fm
 This let's us do _anything_ by writing code:  
 https://supercollider.github.io 
 
-Running this command Termnial.app let's us install all kinds of cool apps and things from anywhere we prefer:  
+Running this command in Terminal.app let's us install all kinds of cool apps and things from anywhere we prefer:  
 `sudo spctl --master-disable`
 
 This let's us route audio between programs:  
