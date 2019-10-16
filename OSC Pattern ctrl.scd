@@ -28,3 +28,6 @@
 )
 
 ~netAddr.disconnect;
+
+// \freq:
+// \bla, Pfunc { |e| n.sendMsg(e[\freq]) }
