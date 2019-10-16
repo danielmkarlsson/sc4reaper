@@ -23,3 +23,6 @@ https://github.com/elifieldsteel/Supercollider3_tutorials_code/tree/master/full%
 
 One awesome place has all the best resources and tutorials when we want to dig deeper:  
 https://github.com/madskjeldgaard/awesome-supercollider
+
+The modern way to ask other users how to do things in SuperCollider is here:
+https://scsynth.org/
