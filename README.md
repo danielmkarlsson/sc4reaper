@@ -43,3 +43,7 @@ http://asb2m10.github.io/dexed/
 
 A safer Benjolin:  
 https://gist.github.com/madskjeldgaard/67d286651b574565dedb8bd50b4c25f6
+
+Sinstruments:  
+https://github.com/redFrik/sInstruments 
+
