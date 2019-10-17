@@ -37,3 +37,6 @@ http://danielmkarlsson.github.io/
 
 How to git:  
 https://c0dereview.github.io/tutorial/2018/01/09/git-part-1/
+
+An FM synththat can be computer controlled:  
+http://asb2m10.github.io/dexed/
