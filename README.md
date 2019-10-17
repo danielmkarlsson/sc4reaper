@@ -50,8 +50,20 @@ https://github.com/redFrik/sInstruments
 Get Git:  
 https://git-scm.com/
 
+SoundHack (++bubbler) have modern versions of their freeware plugins here:  
+https://www.soundhack.com/freeware/
+
+DtBlkFx are free but sadly going out of style (32 bit plugin):  
+https://rekkerd.org/dtblkfx/
+
+DestroyFX are another favourite from the wild, wild west of the naughties:  
+http://destroyfx.smartelectronix.com/
+
 Melda plugins are for reals free:  
 https://www.meldaproduction.com/MFreeFXBundle
 
-I made Ruins in the distance mainly using the tools we've been installing:   
+If you give an email, _any email_, to Izotope, they'll give you their Imager:  
+https://www.izotope.com/en/products/ozone-imager.html  
+
+I made Ruins in the distance mainly using the tools we've been using. I make a new track every day:   
 https://www.danielmkarlsson.com/ruins-in-the-distance/
