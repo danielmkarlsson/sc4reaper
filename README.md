@@ -50,3 +50,5 @@ https://github.com/redFrik/sInstruments
 Get Git:  
 https://git-scm.com/
 
+Melda plugins are for reals free:  
+https://www.meldaproduction.com/MFreeFXBundle
