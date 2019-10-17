@@ -69,4 +69,4 @@ I made Ruins in the distance mainly using the tools we've been using. I make a n
 https://www.danielmkarlsson.com/ruins-in-the-distance/
 
 At the time of writing it is an experimental feature of SuperCollider to run VST plugins _inside_ SuperCollider:  
-https://scsynth.org/t/vstplugin-v0-2-test-release/1237/25
+https://scsynth.org/t/vstplugin-v0-2-test-release/1237
