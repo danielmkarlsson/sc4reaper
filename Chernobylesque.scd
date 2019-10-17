@@ -21,3 +21,34 @@ play{
 	sig = Limiter.ar(LPF.ar(sig*1.5, 13000)*env)
 }
 ) ;
+
+(
+play{
+	var doAmount, atk, sus, dcy, env, sig, filterFreqs ;
+	atk = 3 ;
+	sus = 30 ;
+	dcy = 10 ;
+	doAmount = 25 ;
+	env = EnvGen.ar(Env.linen(atk, sus, dcy, curve: 'sin'), doneAction: 2) ;
+
+	// source1 - dust:
+	sig = Pan2.ar(Dust.ar(7), LFNoise1.ar(0.1));
+
+	// source2 - vit brus med kort envelope (0.1):
+	//sig = WhiteNoise.ar(0.4)*Decay2.ar(Dust.ar(3), 0.001, 0.1) ;
+
+	// an array with frequencies:
+	filterFreqs = Array.fill(doAmount, {rrand(140, 10000)}) ;
+
+	// filterbank:
+	sig = Splay.ar(
+		Ringz.ar(
+			sig,
+			filterFreqs,
+			// decaytime
+			rrand(0.01, 0.1))/filterFreqs.size
+	) ;
+
+	sig = Limiter.ar(LPF.ar(sig*1.5, 13000)*env)
+}
+) ;
