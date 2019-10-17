@@ -53,5 +53,5 @@ https://git-scm.com/
 Melda plugins are for reals free:  
 https://www.meldaproduction.com/MFreeFXBundle
 
-I made Ruins in the distance mainly using the tools we've been installing: 
+I made Ruins in the distance mainly using the tools we've been installing:   
 https://www.danielmkarlsson.com/ruins-in-the-distance/
