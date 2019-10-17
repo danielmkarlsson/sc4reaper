@@ -38,7 +38,7 @@ http://danielmkarlsson.github.io/
 How to git:  
 https://c0dereview.github.io/tutorial/2018/01/09/git-part-1/
 
-An FM synththat can be computer controlled:  
+An FM synth that can be computer controlled:  
 http://asb2m10.github.io/dexed/
 
 A safer Benjolin:  
@@ -67,3 +67,6 @@ https://www.izotope.com/en/products/ozone-imager.html
 
 I made Ruins in the distance mainly using the tools we've been using. I make a new track every day:   
 https://www.danielmkarlsson.com/ruins-in-the-distance/
+
+At the time of writing it is an experimental feature of SuperCollider to run VST plugins _inside_ SuperCollider:  
+https://scsynth.org/t/vstplugin-v0-2-test-release/1237/25
