@@ -40,3 +40,6 @@ https://c0dereview.github.io/tutorial/2018/01/09/git-part-1/
 
 An FM synththat can be computer controlled:  
 http://asb2m10.github.io/dexed/
+
+A safer Bejolin:  
+https://gist.github.com/madskjeldgaard/67d286651b574565dedb8bd50b4c25f6
