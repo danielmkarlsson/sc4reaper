@@ -34,3 +34,6 @@ https://synthdef.art/function-play/
 
 Two drones of infinite duration:  
 http://danielmkarlsson.github.io/
+
+How to git:  
+https://c0dereview.github.io/tutorial/2018/01/09/git-part-1/
