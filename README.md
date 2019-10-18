@@ -77,5 +77,5 @@ https://vimeo.com/243080465
 SuperCollider integration for Neovim:  
 https://github.com/davidgranstrom/scnvim
 
-EMS is great: 
+EMS is great:   
 http://elektronmusikstudion.se/
