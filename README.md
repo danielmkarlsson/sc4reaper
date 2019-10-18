@@ -2,10 +2,12 @@
 
 SuperCollider / Reaper course for SoundDesign students at Stockholm University of The Arts
 
-This is our DAW:  
+This configuration guide presumes that you're operating system is Mac OS X Sierra, High Sierra or thereabouts, and you that know the password to the user you are logged in as.
+
+This is our DAW, it is where we record sound and generally do our work of organizing sound:  
 http://Reaper.fm 
 
-This let's us do **_anything and everything that we could ever dream of_**, by writing code:  
+This let's us do **_anything and everything that we could ever dream of_**, by writing code. It contains a state of the art synthesis engine which is renowned for it's efficiency and cleanliness. It also contains quite an elegant programming language that has been specifically tailored to our needs, being folks who want to organize sound:  
 https://supercollider.github.io 
 
 Running this command in Terminal.app let's us install all kinds of cool apps and things from anywhere we prefer:  
