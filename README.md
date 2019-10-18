@@ -76,3 +76,6 @@ https://vimeo.com/243080465
 
 SuperCollider integration for Neovim:  
 https://github.com/davidgranstrom/scnvim
+
+
+[![How to reverse media item in Reaper](https://github.com/danielmkarlsson/sc4reaper/blob/master/Reaper%20-%20How%20to%20reverse%20a%20media%20item.mov)
