@@ -16,6 +16,8 @@ Running this command in Terminal.app let's us install all kinds of cool apps and
 This let's us route audio between programs:  
 https://github.com/mattingalls/Soundflower 
 
+It is my strongly expressed recomendation that you _never, ever, ever_ listen to the sound output of SuperCollider without first having routed it into to Reaper using SoundFlower. If you have used SoundFlower in the past with a gui then I shoud tell you that this is not that. This is a kernel extension. Long story short: It not only works, it is great now.
+
 Every time we feel that we need to start from the beginning learning how to do things in SuperCollider we begin here:  
 https://www.youtube.com/watch?v=yRzsOOiJ_p4&list=PLPYzvS8A_rTaNDweXe6PX4CXSGq4iEWYC
 
