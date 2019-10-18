@@ -1,33 +1,30 @@
-~netAddr = NetAddr("127.0.0.1", 8000);
+~netAddr = NetAddr("127.0.0.1", 8000); // open coms
+n.sendMsg("/grainSize", exprand(0.01, 1.0)); // good for mapping
+n.sendMsg("/grainOctave", [0.0,0.1,0.2,0.3,0.4,0.7,0.8,0.9,1.0].choose);
+n.sendMsg("/grainTime", exprand(0.01, 1.0));
+
 
 (
-    var calcRatio = {arg ratio=1;
-        var x = 0.008518020;
-        var y = 22030;
-        var z = 20;
-        ((((x * y) + z) * ratio) - z) / y;
-    };
+Pdef(\oscSend1, Pbind(
+	\type, \rest,
+	\value, Pexprand(0.05, 0.5, inf),
+	\send, Pfunc { |e| n.sendMsg("/grainSize" , e[\value] ) },
+	\dur, 0.5,
+)).play(quant: 1);
 
-    Pdef(\oscSend, Pbind(
-        \type, \rest,
-        \ratios, Pseq([
-            [1/1, 6/5, 3/2, 9/5],
-            [1/1, 4/3, 3/2, 5/3],
-            [1/1, 6/5, 8/5, 9/5],
-            [1/1, 5/4, 3/2, 2/1],
-        ], inf),
-        \send, Pfunc {|event|
-            event.ratios.do {|ratio, i|
-                var value = calcRatio.(ratio);
-                var addr = "/fl%/frq".format(i+1);
-                ~netAddr.sendMsg(addr, value);
-            };
-        },
-        \dur, 8,
-    )).play;
+Pdef(\oscSend2, Pbind(
+	\type, \rest,
+	\value, Pxshuf([0.0,0.1,0.2,0.3,0.4,0.7,0.8,0.9,1.0], inf),
+	\send, Pfunc { |e| n.sendMsg("/grainOctave" , e[\value] ) },
+	\dur, 0.25,
+)).play(quant: 1);
+
+Pdef(\oscSend3, Pbind(
+	\type, \rest,
+	\value, Pexprand(0.01, 0.25, inf),
+	\send, Pfunc { |e| n.sendMsg("/grainTime" , e[\value] ) },
+	\dur, 1,
+)).play(quant: 1);
 )
 
-~netAddr.disconnect;
-
-// \freq:
-// \bla, Pfunc { |e| n.sendMsg(e[\freq]) }
+~netAddr.disconnect; // close coms
