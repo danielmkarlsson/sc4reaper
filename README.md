@@ -2,7 +2,7 @@
 
 SuperCollider / Reaper course for SoundDesign students at Stockholm University of The Arts
 
-This configuration guide presumes that you're operating system is Mac OS X Sierra, High Sierra or thereabouts, and you that know the password to the user you are logged in as.
+This configuration guide presumes that your operating system is Mac OS X Sierra, High Sierra or thereabouts, and you that know the password to the user you are logged in as.
 
 This is our DAW, it is where we record sound and generally do our work of organizing sound:  
 http://Reaper.fm 
