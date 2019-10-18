@@ -70,3 +70,9 @@ https://www.danielmkarlsson.com/ruins-in-the-distance/
 
 At the time of writing it is an experimental feature of SuperCollider to run VST plugins _inside_ SuperCollider:  
 https://scsynth.org/t/vstplugin-v0-2-test-release/1237
+
+Verdensteatret - HANNAH, a stage performance that utilizes SuperCollider in a multitude of ways:   
+https://vimeo.com/243080465
+
+SuperCollider integration for Neovim:  
+https://github.com/davidgranstrom/scnvim
