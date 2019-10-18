@@ -1,0 +1,1 @@
+(Quarks.all.detect{|x| x.name=="sInstruments"}.localPath+/+"startMenu.scd").load
