@@ -1,10 +1,12 @@
 s.boot; // boot the server
 n = NetAddr("127.0.0.1", 8000); // open coms
-n.sendMsg("/grainSize", exprand(0.01, 1.0)); // good for mapping
+
+// good for mapping
+n.sendMsg("/grainSize", exprand(0.01, 1.0)); 
 n.sendMsg("/grainOctave", [0.0,0.1,0.2,0.3,0.4,0.7,0.8,0.9,1.0].choose);
 n.sendMsg("/grainTime", exprand(0.01, 1.0));
 
-
+// three patterns that can be changed in realTime, individual patterns 
 (
 Pdef(\oscSend1, Pbind(
 	\type, \rest,
