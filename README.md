@@ -2,7 +2,7 @@
 
 Reaper / SuperCollider course for SoundDesign students at Stockholm University of The Arts
 
-This configuration guide presumes that your operating system is Mac OS X Sierra, High Sierra or thereabouts, and that you know the password to the user you are logged in as. Also the course in general presumes that you have never opened neither SuperCollider nor Reaper.
+This configuration guide presumes that your operating system is Mac OS X Sierra, High Sierra or thereabouts, and that you know the password to the user you are logged in as. Also the course in general presumes that you have never opened neither SuperCollider nor Reaper. The aim of this configuration guide in particular and this course in general is to make you more free in the ways that you can use Reaper which for all intents and purposes is a highly capable DAW, but still, just a DAW. As such it is inherently linear in it's very nature. SuperCollider will allow us to add dainty bells and gleeful bells to the way we work with Reaper.
 
 This is our DAW, it is where we record sound and generally do our work of organizing sound:  
 https://Reaper.fm 
