@@ -2,7 +2,7 @@
 // You need to have SuperDirt already installed in order for this to work.
 
 SuperDirt.start // Run this line on it's own first to boot SuperDirt.
-SuperDirt.default = ~dirt; // Then run this line to get the ~dirt key sequenceable.
+SuperDirt.default = ~dirt; // Then run this line to get ~dirt sequenceable.
 
 // Run the below block to get the sequencer going. 
 // It will run in time together with other sequencers because (quant:1).
