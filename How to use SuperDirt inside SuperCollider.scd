@@ -1,10 +1,10 @@
 // This demonstrates controlling SuperDirt _inside_ SuperCollider.
 // You need to have SuperDirt already installed in order for this to work.
-
-SuperDirt.start // Run this line on it's own first to boot SuperDirt.
+s.boot; // Run this line on it's own first to boot the server.
+SuperDirt.start // Then run this line on it's own to get SuperDirt going.
 SuperDirt.default = ~dirt; // Then run this line to get ~dirt sequenceable.
 
-// Run the below block to get the sequencer going. 
+// Run the below block to get the sequencer going.
 // It will run in time together with other sequencers because (quant:1).
 // Sequencers can be edited and reEvaluated in realtime because Pdef, Pbind killer combo.
 
@@ -19,7 +19,7 @@ Pdef(\a,
 		\begin, Pstutter(128,Pwhite (0.0, 1.0), inf),
 		\delay, 1/5,
 		\delayfeedback, 0.97,
-		\delaytime, 1/127 
+		\delaytime, 1/127
         * Pstutter(64,Pwrand([1/2,1,2,4,8,16],[1,2,2,2,3,3].normalizeSum, inf))
         / Pstutter(32,Prand([1,2,2.25,3,3.185,4,4.163,6], inf)),
         \gain, Pstutter(16,Pwrand([1,2,4],[1,8,16].normalizeSum, inf)),
@@ -28,6 +28,8 @@ Pdef(\a,
 	)
 ).play(quant:1);
 );
+
+// Here's another block that you can evaluate on it's own to get it running _in time_.
 
 (
 Pdef(\b,
