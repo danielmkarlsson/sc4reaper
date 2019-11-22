@@ -1,17 +1,17 @@
 s.boot
-h = NetAddr("127.0.0.1", 8000);
+n = NetAddr("127.0.0.1", 8000);
 
-h.sendMsg("/grainSize", 0.013575); // precision
-h.sendMsg("/grainDensity", 0.0); // precision
+n.sendMsg("/grainSize", 0.013575); // precision
+n.sendMsg("/grainDensity", 0.0); // precision
 
 
 (
-h.sendMsg("/grainSize", exprand(0.01, 1.0));
-h.sendMsg("/grainTime", exprand(0.01, 1.0));
-h.sendMsg("/grainDensity", rrand(0.5, 1.0));
-h.sendMsg("/grainFeedback", 1-exprand(0.1, 1.0));
-h.sendMsg("/grainOctave", [0.0,0.1,0.2,0.3,0.4,0.7,0.8,0.9,1.0].choose);
-h.sendMsg("/filterFreq", [0.0,1.0,1.0].choose);
+n.sendMsg("/grainSize", exprand(0.01, 1.0));
+n.sendMsg("/grainTime", exprand(0.01, 1.0));
+n.sendMsg("/grainDensity", rrand(0.5, 1.0));
+n.sendMsg("/grainFeedback", 1-exprand(0.1, 1.0));
+n.sendMsg("/grainOctave", [0.0,0.1,0.2,0.3,0.4,0.7,0.8,0.9,1.0].choose);
+n.sendMsg("/filterFreq", [0.0,1.0,1.0].choose);
 )
 
 (
